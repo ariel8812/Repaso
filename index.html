@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <script >
-		var pantalla ='';
-		var resultado ='0';
-		var operador = '';
-		var numero1 = 0;
-		var numero2 = 0;
-		function mostrar(valor){
-			pantalla = pantalla + valor;
-			document.getElementById('lcd').value = pantalla;
-		}
-		function obtenerOperador(operacion){
-			numero1=document.getElementById('lcd').value; 
-			operador = operacion;
-			document.getElementById('lcd').value = '';
-			pantalla ='';
-		}
-		function calcular(){
-			numero2 = document.getElementById('lcd').value;
-		
-			switch(operador){
-				case 'suma':
-					resultado=parseInt(numero1) + parseInt(numero2);
-					document.getElementById('lcd').value = resultado;
-					break;
-			case 'resta':
+    
+    
+    <script>
+        var pantalla = '';
+        var resultado = '0';
+        var operador = '';
+        var numero1 = 0;
+        var numero2 = 0;
+        function mostrar(valor) {
+            pantalla = pantalla + valor;
+            document.getElementById('lcd').value = pantalla;
+        }
+        function obtenerOperador(operacion) {
+            numero1 = document.getElementById('lcd').value;
+            operador = operacion;
+            document.getElementById('lcd').value = '';
+            pantalla = '';
+        }
+        function calcular() {
+            numero2 = document.getElementById('lcd').value;
+
+            switch (operador) {
+                case 'suma':
+                    resultado = parseInt(numero1) + parseInt(numero2);
+                    document.getElementById('lcd').value = resultado;
+                    break;
+				case 'resta':
                      resultado = parseInt( numero1) - parseInt(numero2);
                      document.getElementById('lcd').value = resultado;
-                         break;	
-		
-			}
-		}
-		
-	</script>  
-    
+                         break;
+            }
+        }
+        function multiplicar() {
+            m1 = document.getElementById("multiplicando").value;
+            m2 = document.getElementById("multiplicador").value;
+            r = m1 * m2;
+            document.getElementById("resultado").value = r;
+
+    </script>
+
 
 </body>
+
 </html>

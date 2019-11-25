@@ -17,7 +17,7 @@ function resta(){
   var res= 0;
   res = n1 - n2;
   console.log(resta);
-//funciones de una calculadora}
+//funciones de una calculadora, cambios
 
 function division(n1,n2){
     var r = n1 / n2; 

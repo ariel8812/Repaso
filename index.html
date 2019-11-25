@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    
+    
     <script>
         var pantalla = '';
         var resultado = '0';
@@ -33,7 +35,10 @@
                     resultado = parseInt(numero1) + parseInt(numero2);
                     document.getElementById('lcd').value = resultado;
                     break;
-
+				case 'resta':
+                     resultado = parseInt( numero1) - parseInt(numero2);
+                     document.getElementById('lcd').value = resultado;
+                         break;
             }
         
         }

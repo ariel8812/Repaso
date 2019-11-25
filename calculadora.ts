@@ -1,4 +1,9 @@
 //funciones de una calculadora
+function residuo(x, y) {
+    return x % y;
+
+}
+
 function sumar(){
     var n1 = 10;
     var n2 = 7;
@@ -9,9 +14,11 @@ function resta(n1,n2){
  var res = n1 -n2;
  return res;
 }
-//funciones de una calculadora}
+
+
 
 function division(n1,n2){
     var r = n1 / n2; 
     return r;
 }
+

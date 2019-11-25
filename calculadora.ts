@@ -12,8 +12,8 @@ function sumar(){
     console.log(suma);
 }
 function resta(n1,n2){
- var res = n1 - n2;
- return res;
+ var rs = n1 - n2;
+ return rs;
 }
 
 function division(n1,n2){

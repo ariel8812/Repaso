@@ -9,22 +9,18 @@ function residuo(x, y) {
     return x % y;
 
 }
-
-function sumar(){
-    var n1 = 10;
-    var n2 = 7;
-    var suma = 0;
-    suma = n1 + n2;
-    console.log(suma);
-function resta(){
-  var n1 = 8;
-  var n2 = 4;
-  var res= 0;
-  res = n1 - n2;
-  console.log(resta);
 //funciones de una calculadora}
+}
+function resta(n1,n2){
+ var rs = n1 - n2;
+ return rs;
+}
 
 function division(n1,n2){
     var r = n1 / n2; 
+    return r;
+}
+function multiplicacion(n1, n2){
+    var r = n1 * n2;
     return r;
 }

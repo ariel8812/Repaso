@@ -10,8 +10,9 @@ function sumar(){
     var suma = 0;
     suma = n1 + n2;
     console.log(suma);
+}
 function resta(n1,n2){
- var res = n1 -n2;
+ var res = n1 - n2;
  return res;
 }
 

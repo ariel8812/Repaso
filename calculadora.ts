@@ -5,6 +5,17 @@ function suma(n1,n2){
     var suma = n1 + n2;
     
     console.log(suma(5,7));
+function residuo(x, y) {
+    return x % y;
+
+}
+
+function sumar(){
+    var n1 = 10;
+    var n2 = 7;
+    var suma = 0;
+    suma = n1 + n2;
+    console.log(suma);
 function resta(){
   var n1 = 8;
   var n2 = 4;

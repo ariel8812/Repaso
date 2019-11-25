@@ -1,5 +1,9 @@
 //funciones de una calculadora
-<<<<<<< HEAD
+function residuo(x, y) {
+    return x % y;
+
+}
+
 function sumar(){
     var n1 = 10;
     var n2 = 7;
@@ -13,10 +17,10 @@ function resta(){
   var res= 0;
   res = n1 - n2;
   console.log(resta);
->>>>>>> a5158612fd88f37f666e75e579264b9b54308d58
 //funciones de una calculadora}
 
 function division(n1,n2){
     var r = n1 / n2; 
     return r;
 }
+>>>>>>> 05e0472c7600a109072bd14061513deb92c20797
